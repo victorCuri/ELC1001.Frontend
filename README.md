@@ -36,3 +36,5 @@ const input = [{
 ```
 
 * Se você tiver dúvidas ou quiser exemplos de como os dados da API estão estruturados, você pode consultar os arquivos modelo (`*.model.js`) no repositório da API. No caso da tela de "Meus looks", seria interessante saber como os looks e as roupas estão estruturados, para isso você poderia consultar os arquivos `look.routes.js` e `garment.model.js`.
+* Se sua rota precisa fazer o upload de uma image para a API (e.g para criar uma peça de roupa), converta-a para Base64 e envie no `body` da requisição
+* Se sua rota precisa receber um URL de uma imagem da API (e.g. para mostrar os detalhes de uma peça), use um link de imagem qualquer da internet no seu objeto de entrada (ver primeira observação)
